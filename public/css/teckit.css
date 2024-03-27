@@ -1,0 +1,274 @@
+#barcode-output svg {
+    width: 390px;
+    height: 100px;
+}
+
+.table-contaner {
+    direction: ltr;
+    max-width: 380px;
+    min-width: 320px;
+    font-family: Helvetica, Arial, sans-serif;
+    border-collapse: separate;
+}
+
+.top-head {
+    vertical-align: top;
+}
+
+.header-tb {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: none;
+    width: 100%;
+
+}
+
+.head-logo {
+    width: 40%;
+    vertical-align: center;
+}
+
+.head-logo img {
+    width: 130;
+    max-width: 130px;
+    height: auto;
+}
+
+.head-logo span {
+    font-size: 12px;
+    color: #666;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.barcode-contaner {
+    padding-bottom: 10px;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    width: 60%;
+}
+
+.barcode-div {
+    position: relative;
+    top: 5px;
+    width: 380px;
+    height: 90px;
+
+    vertical-align: center;
+}
+
+.table-info {
+    width: 100%;
+    border-spacing: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: separate;
+    margin-bottom: 5px;
+}
+
+.client-info-box {
+    vertical-align: top;
+    padding: 5px;
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+    font-family: tahoma, Arial, sans-serif;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    width: 60%;
+}
+
+.client-info-box .client-info-list,
+.order-info-box .order-info-list {
+    padding-right: 5px;
+    padding-left: 5px;
+    list-style: none;
+    margin: 5px 0;
+}
+
+.client-info-box .client-info-list li,
+.order-info-box .order-info-list li {
+    color: rgb(51, 51, 51);
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    padding-bottom: 3px;
+    margin: 0px;
+
+}
+
+.client-info-box .client-info-list li span,
+.order-info-box .order-info-list li span {
+    color: #666;
+    font-weight: bold;
+}
+
+.order-info-box {
+    vertical-align: top;
+    background-color: rgb(245, 245, 245);
+    padding: 5px;
+    color: rgb(68, 68, 68);
+    font-size: 15px;
+    width: 40%;
+}
+
+.order-items-tb {
+    width: 100%;
+    border-spacing: 0;
+    padding: 0;
+    border: none;
+    border-top: 3px solid #666;
+    color: #444;
+    text-transform: uppercase;
+    border-collapse: separate;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.order-items-tb tbody .header {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(252, 134, 134);
+    color: white;
+}
+
+.order-items-tb tbody .header td {
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.order-items-tb tbody .items {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.order-items-tb tbody .items td {
+    padding: 10px 0px;
+    border: 1px solid rgb(83, 83, 83);
+    border-bottom: 3px solid #888;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.order-items-tb tbody .items td a {
+    font-family: 'Tajawal', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: .5s;
+}
+
+.order-items-tb tbody .items td a:hover {
+    color: red;
+}
+
+.order-items-tb tbody .items td p {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.order-items-tb tbody .items td p strong {
+    font-weight: bold;
+}
+
+.shipping-info-tb {
+    border-top-width: 3px;
+    padding-top: 10px;
+}
+
+.shipping-info-tb .shipping-contaner-tb {
+    width: 100%;
+    border-collapse: separate;
+}
+
+.shipping-method {
+    width: 50%;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(68, 68, 68);
+    padding-right: 0px;
+    height: 80px;
+    overflow: hidden;
+    width: 100% !important;
+    display: block;
+}
+
+.shipping-tit {
+    width: 50%;
+    vertical-align: top;
+}
+
+.shipping-tit table {
+    width: 100%;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+}
+
+.shipping-tit table tbody tr {
+    vertical-align: top;
+}
+
+.total-contaner {
+    font-size: 22px;
+    font-family: 'Tajawal', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    direction: rtl;
+}
+
+.title {
+    align-items: left;
+}
+
+.min-title {
+    padding-bottom: 0px;
+    font-family: 'Tajawal', Helvetica, Arial, sans-serif;
+}
+
+.content {
+    text-align: right;
+}
+
+.sub-title {
+    padding-top: 5px;
+    border-top-color: rgb(232, 232, 232);
+}
+
+.total-cost {
+    padding-top: 5px;
+    border-top-color: rgb(232, 232, 232);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer {
+    border-top-width: 3px;
+    padding-top: 10px;
+    font-size: 13px;
+    border-top: 2px solid #999;
+}
+
+.qr-side {
+    width: 30%;
+}
+
+.note-side{
+    width: 70%;
+    padding-left: 5px;
+}
+
+.note-side p {
+    font-family: 'Tajawal', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    color: rgb(68, 68, 68);
+}
+
+.qr-cont img{
+    transition: .5s;
+
+}
+
+.qr-cont img:hover{
+    transform: scale(1.1);
+}
